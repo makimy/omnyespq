@@ -1,0 +1,14 @@
+menu "OMNYESPQ Configuration"
+config FIRST_TIMER_DELAY
+    int "FIRST TIMER DELAY"
+    default 5000
+    help
+    Delay for a first timer (in ms)
+
+config SECOND_TIMER_DELAY
+    int "SECOND TIMER DELAY"
+    default 10000
+    help
+    Delay for a second timer (in ms)
+endmenu
+
